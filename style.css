@@ -1,0 +1,75 @@
+/* Set background and make it colorful */
+body {
+  background: linear-gradient(45deg, #4CAF50, #2196F3, #FF5722);
+  background-size: 600% 600%;
+  animation: gradientAnimation 15s ease infinite;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Create a smooth animation for background color changing */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Style the banner image */
+#banner {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Add a smooth transition effect when hovering over the banner */
+#banner:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Add a container for the text and topics */
+.container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);  /* Transparent black background */
+  border-radius: 10px;
+}
+
+/* Style the header with bold and big font */
+.container h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+/* Add hover effect on the individual topics */
+.container .topic {
+  display: inline-block;
+  margin: 5px 15px;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.container .topic:hover {
+  background-color: #FF5722;
+  transform: translateY(-5px);
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 2em;
+  }
+  .container .topic {
+    font-size: 1em;
+  }
+}
