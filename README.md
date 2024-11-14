@@ -69,15 +69,15 @@ Here's a snapshot of my career trajectory:
 
 ## 📚 **Projects and Case Studies**
 
-### 🔒 [DevSecOps Pipeline Integration](https://github.com/rajamohan9/DevSecOps-Pipeline-Integration)
+### 🔒 [DevSecOps Pipeline Integration](https://github.com/rajamohan9/DevSecOps-Pipeline-Integration.md)
 A comprehensive pipeline configuration with SAST, DAST, and container security, designed for end-to-end secure deployment.  
 - **Highlights**: Real-time vulnerability detection, automated code scanning, secure deployment in Azure DevOps.
 
-### 🐳 [Container Security Best Practices](https://github.com/rajamohan9/Container-Security)
+### 🐳 [Container Security Best Practices](https://github.com/rajamohan9/Container-Security.md)
 In-depth container security project using Trivy, Docker Bench, and JFrog Xray to secure Docker environments.  
 - **Highlights**: Continuous scanning, secure image management, policy-based alerting.
 
-### 🌐 [Threat Modeling Guide](https://github.com/rajamohan9/Threat-Modeling-Guide)
+### 🌐 [Threat Modeling Guide](https://github.com/rajamohan9/Threat-Modeling-Guide.md)
 A practical approach to threat modeling, including guides for security teams to work alongside developers.  
 - **Highlights**: Real-world scenarios, developer training, threat mitigation.
 
